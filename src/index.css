@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "DM Sans", sans-serif;
+        min-height: 100%;
+    }
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #0C3960  #EDF0F2;
+    }
+}
+
+
+.active li {
+    @apply bg-myColorDarkBlue text-white fill-white;
+}
