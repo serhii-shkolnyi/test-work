@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 
-const MonitoringPages:FC = () => {
+const MonitoringPage:FC = () => {
     return (
         <div>
             MonitoringPages
@@ -8,4 +8,4 @@ const MonitoringPages:FC = () => {
     );
 };
 
-export {MonitoringPages};
+export {MonitoringPage};
